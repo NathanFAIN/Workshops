@@ -17,12 +17,12 @@ Allouer de la mémoire:
 char *str = malloc(sizeof(char) * str_size);
 char **str = malloc(sizeof(char *) * str_size);
 ```
-Pour parcourir un simple tabeau:
+Pour parcourir un simple tabeau (```char *```):
 ```
 char *str;
 for (int i = 0; str[i] != '\0', i++) {}
 ```
-Pour parcourir un double tabeau:
+Pour parcourir un double tabeau (```char **```):
 ```
 char **str;
 for (int i = 0; str[i] != NULL, i++) {}
