@@ -13,8 +13,8 @@ caractères c dans la chaine de caractères str.
 ****************************************************/
 int count_c_in_str(char *str, char c)
 {
-    (void) str; //Pour éviter les warning, à retier
-    (void) c;   //lors ce que tu commences à coder.
+    (void) str;    //Pour éviter les warning, à retier
+    (void) c;      //lors ce que tu commences à coder.
 
     return (0);
 }
@@ -28,8 +28,8 @@ de caractères avant de rencontrer le caractère c ou
 ****************************************************/
 int count_before_c_in_str(char *str, char c)
 {
-    (void) str; //Pour éviter les warning, à retier
-    (void) c;   //lors ce que tu commences à coder.
+    (void) str;    //Pour éviter les warning, à retier
+    (void) c;      //lors ce que tu commences à coder.
 
     return (0);
 }
@@ -47,7 +47,7 @@ http://manpagesfr.free.fr/man/man3/strdup.3.html
 ****************************************************/
 char *my_strndup(char *str, int size)
 {
-    (void) str; //Pour éviter les warning, à retier
+    (void) str;    //Pour éviter les warning, à retier
     (void) size;   //lors ce que tu commences à coder.
 
     return (NULL);
@@ -68,8 +68,8 @@ codé juste au dessus pour t'aider.
 ****************************************************/
 char **str_to_word_array(char *str, char c)
 {
-    (void) str; //Pour éviter les warning, à retier
-    (void) c;   //lors ce que tu commences à coder.
+    (void) str;    //Pour éviter les warning, à retier
+    (void) c;      //lors ce que tu commences à coder.
 
     return (NULL);
 }
