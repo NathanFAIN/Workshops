@@ -32,13 +32,13 @@ int main(void)
 
     //Tests pour la fonction my_strndup:
     printf("\nTests pour la fonction my_strndup:\n");
-    str = my_strndup("abdbda", 1);//       #1
+    str = my_strndup("abdbda", 1);//                   #1
     printf("Toi: %s   Attendu: %s\n", str, "a");
     free(str);
-    str = my_strndup("bcba", 4);//         #2
+    str = my_strndup("bcba", 4);//                     #2
     printf("Toi: %s   Attendu: %s\n", str, "bcba");
     free(str);
-    str = my_strndup("bcd", 2);//          #3
+    str = my_strndup("bcd", 2);//                      #3
     printf("Toi: %s   Attendu: %s\n", str, "bc");
     free(str);
 
