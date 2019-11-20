@@ -4,6 +4,7 @@ Go to src/str_to_word_array.c file to start the exercises!
 
 
 **Petits rappels:**
+
 Naviguer dans un tableau:
 ```
 *(str) = str[0]
