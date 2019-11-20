@@ -1,0 +1,3 @@
+The guide to code the function str_to_word_array...
+
+Go to src/str_to_word_array.c file to start the exercises!
