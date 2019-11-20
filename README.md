@@ -12,12 +12,15 @@ Petits rappels:
 char *str = malloc(sizeof(char) * str_size);
 char **str = malloc(sizeof(char *) * str_size);*
 
+```
 Pour parcourir un simple tabeau:
+```
 char *str;
 for (int i = 0; str[i] != '\0', i++)
 
-
+```
 Pour parcourir un double tabeau:
+```
 char **str;
 for (int i = 0; str[i] != NULL, i++)
 ```
