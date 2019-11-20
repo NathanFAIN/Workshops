@@ -1,6 +1,7 @@
-* **The guide to code the function str_to_word_array...**
+* **Guide pour réaliser la fonction str_to_word_array...**
 
-*Go to src/str_to_word_array.c file to start the exercises!*
+
+*Vas dans le fichier src/str_to_word_array.c pour commencer les exercises!*
 
 
 * **Petits rappels:**
