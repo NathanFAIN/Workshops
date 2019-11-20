@@ -17,11 +17,11 @@ int count_c_in_str(char c, char *str)
 }
 
 /*
-La fonction count_c_before_in_str comptera le nombre de
+La fonction count_before_c_in_str comptera le nombre de
 caractères avant de rencontrer le caractère c ou '\0'
 dans la chaine de caractères str.
 */
-int count_c_before_in_str(char c, char *str)
+int count_before_c_in_str(char c, char *str)
 {
     return (0);
 }

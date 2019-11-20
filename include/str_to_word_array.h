@@ -13,6 +13,6 @@
 #include <stdio.h>
 
 int count_c_in_str(char c, char *str);
-int count_c_before_in_str(char c, char *str);
+int count_before_c_in_str(char c, char *str);
 
 #endif

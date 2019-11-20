@@ -20,13 +20,13 @@ int main(void)
     nb = count_c_in_str('a', "bcdbcdbcd");//           #2
     printf("You: %i   The good answer: %i\n", nb, 0);
 
-    //Tests pour la fonction count_c_before_in_str:
-    printf("\nTests pour la fonction count_c_before_in_str:\n");
-    nb = count_c_before_in_str('a', "abdbda");//       #1
+    //Tests pour la fonction count_before_c_in_str:
+    printf("\nTests pour la fonction count_before_c_in_str:\n");
+    nb = count_before_c_in_str('a', "abdbda");//       #1
     printf("You: %i   The good answer: %i\n", nb, 0);
-    nb = count_c_before_in_str('a', "bcba");//         #2
+    nb = count_before_c_in_str('a', "bcba");//         #2
     printf("You: %i   The good answer: %i\n", nb, 3);
-    nb = count_c_before_in_str('a', "bcd");//          #3
+    nb = count_before_c_in_str('a', "bcd");//          #3
     printf("You: %i   The good answer: %i\n", nb, 3);
 
     return (0);
