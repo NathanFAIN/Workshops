@@ -59,7 +59,7 @@ char *my_strndup(char *str, int size)
 La fonction str_to_word_array "transforme" ta chaine
 de caractères en un tableau de chaines caractères à
 l'aide d'un séparateur, exemple:
-Entrée -> "42\nest\nla\nréponse!"
+Entrée -> "42\nest\nla\nréponse!", '\n'
 Sortie -> "42", "est", "la", "réponse!"
 
 Tu es fin près pour coder la fameuse fonction
