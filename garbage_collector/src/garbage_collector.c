@@ -29,11 +29,6 @@ La fonction call_after_main affichera le message
 "Au revoir\n" après avoir quitté la fonction main.
 Celle-ci devra être appelé sans modifier la fonction
 main...
-
-Pour réaliser l'exercice je t'invite à regarder le
-lien suivant:
-https://gcc.gnu.org/onlinedocs/gcc/Common-Function-
-Attributes.html#Common-Function-Attributes
 ****************************************************/
 void call_after_main(void)
 {

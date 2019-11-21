@@ -15,8 +15,8 @@
 typedef struct garbage_collector_s garbage_collector_t;
 
 /***************************************************
-Fais la structure juste en dessous en reprenant ne
-nom du typedef au dessus.
+Fais la structure juste en dessous en d'aidant du
+typedef au dessus.
 ****************************************************/
 struct garbage_collector_s
 {
