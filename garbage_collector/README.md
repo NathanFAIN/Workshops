@@ -4,4 +4,6 @@
 
 * **Petits rappels:**
 
-* [Les listes chaînées][https://openclassrooms.com/fr/courses/19980-apprenez-a-programmer-en-c/19733-les-listes-chainees]
+[linked-list]: https://openclassrooms.com/fr/courses/19980-apprenez-a-programmer-en-c/19733-les-listes-chainees
+
+[Les listes chaînées][linked-list]
