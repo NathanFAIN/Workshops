@@ -8,4 +8,5 @@
 [attributes]: https://gcc.gnu.org/onlinedocs/gcc/Common-Function-Attributes.html#Common-Function-Attributes
 
 [Les listes chaînées][linked-list]
+
 [Les attributs][attributes]
