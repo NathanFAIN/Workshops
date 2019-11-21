@@ -6,4 +6,4 @@
 
 [linked-list]: https://openclassrooms.com/fr/courses/19980-apprenez-a-programmer-en-c/19733-les-listes-chainees
 
-- [Les listes chaînées][linked-list]
+[Les listes chaînées][linked-list]
