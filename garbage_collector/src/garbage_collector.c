@@ -23,7 +23,6 @@ void call_before_main(void)
 
 }
 
-
 /***************************************************
 La fonction call_after_main affichera le message
 "Au revoir\n" après avoir quitté la fonction main.
@@ -40,13 +39,14 @@ Ce troisième exercice se déroulera dans le fichier
 include/garbage_collector.h.
 Tu devras faire un structure pour une liste simplement
 chaîné, ne contenant uniquement un pointeur next
-(pointant sur le prochain élément).
+(pointant sur le prochain élément) et un void *ptr.
 ****************************************************/
 
 /***************************************************
 La fonction add_ptr_to_garbage_collector_t ajoutera
 le pointeur ptr à la liste chaîné garbage_collector
-et retournera la variable garbage_collector.
+et retournera la variable garbage_collector
+(première node de la liste chaîné).
 ****************************************************/
 garbage_collector_t *add_ptr_to_garbage_collector_t \
 (garbage_collector_t *garbage_collector, void *ptr)
