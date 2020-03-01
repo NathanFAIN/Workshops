@@ -1,0 +1,68 @@
+---
+output:
+  pdf_document:
+    latex_engine: pdflatex
+    template: ./TemplateCV.tex
+geometry: margin=1in
+fontawesome: yes
+fontfamily: mathpazo
+fontfamilyoptions: sc, osf
+fontsize: 11pt
+linkcolor: blue
+urlcolor: blue
+
+##############################################
+params:
+    title: ""
+    firstname: ""
+    lastname: ""
+    jobtitle: ""
+    address: ""
+    city: ""
+    country: ""
+    phone: ""
+    web: ""
+    email: ""
+    domaine: ""
+    profil: ""
+    textname: ""
+    text: ""
+    
+#Information:
+title: "`r params$title`"
+firstname: "`r params$firstname`"
+lastname: "`r params$lastname`"
+jobtitle: "`r params$jobtitle`"
+address: "`r params$address`"
+city: "`r params$city`"
+country: "`r params$country`"
+phone: "`r params$phone`"
+web: "`r params$web`"
+email: "`r params$email`"
+domaine: "`r params$domaine`"
+profil: "`r params$profil`"
+##############################################
+---
+
+
+```{r setup, include=FALSE}
+##############################################
+# Load library:
+
+    number <- 1
+    library(gridExtra)
+    library(rmarkdown)
+    library(markdown)
+    library(crayon)
+    library(foreach)
+    knitr::opts_chunk$set(echo = TRUE)
+##############################################
+```
+
+```{r,results='asis', echo=FALSE}
+    for (i in 1:length(params$text)) {
+        cat(paste("# ", params$textname[i], " \n", sep=""))
+        cat(params$text[i])
+        cat("\n\n")
+    }
+```
